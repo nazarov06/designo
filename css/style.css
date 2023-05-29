@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Jost";
+}
+
+header {
+  margin-top: 65px;
+  width: 1111px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  height: 25px;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-left: 42px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+}
+
+main .promo {
+  margin-top: 70px;
+  width: 1111px;
+  height: 640px;
+  background-color: #E7816B;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 56px 0 96px;
+}
+main .promo .promo-about .title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+main .promo .promo-about .subtitle {
+  margin-top: 11px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .promo .promo-about button {
+  margin-top: 40px;
+  padding: 18px 25px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+main .promo .promo-img {
+  margin-left: 80px;
+  display: flex;
+  align-items: flex-end;
+  transform: translateY(1.4%);
+}
+main .course {
+  width: 1111px;
+  height: 640px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+main .course .left {
+  height: 100%;
+}
+main .course .title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+main .course .subtitle {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-top: 24px;
+}
+main .course .left .web-course {
+  width: 541px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-image: url(../img/web.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+}
+main .course .right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .course .right .app-course {
+  width: 541px;
+  height: 308px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-image: url(../img/app.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+}
+main .course .right .graphic-course {
+  width: 541px;
+  height: 308px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-image: url(../img/graphic.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+}
+main .our-team {
+  margin-top: 160px;
+  width: 1111px;
+  height: 412px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+main .our-team .person {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .our-team .person .title {
+  margin-top: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #333136;
+  text-transform: uppercase;
+}
+main .our-team .person .subtitle {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+}
+main .our-team .person img {
+  width: 202px;
+  height: 202px;
+}
+main .footer {
+  width: 1111px;
+  height: 292px;
+  margin-top: 160px;
+  background-image: url(../img/Group\ 28.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 96px;
+}
+main .footer .title h3 {
+  width: 268px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+main .footer .title p {
+  width: 459px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .footer button {
+  padding: 18px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    display: flex;
+  }
+  body .container {
+    background-color: red;
+  }
+  body header {
+    width: 375px;
+  }
+  body header ul li {
+    display: none;
+    margin: 0;
+  }
+  body main .promo {
+    flex-direction: column;
+    width: 375px;
+  }
+  body main .promo .promo-about {
+    text-align: center;
+  }
+  body main .course {
+    flex-direction: column;
+  }
+  body main .our-team {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
